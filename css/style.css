@@ -8416,7 +8416,8 @@ video {
 .fullsize-video-bg { 
  height: 100%; 
  overflow: hidden;
-background-color: rgba(0, 0, 0, 0.650); }
+/* background-color: rgba(0, 0, 0, 0.650); */
+ }
 
 /* .fullsize-video-bg .inner { display: table; 
  width: 100%;
