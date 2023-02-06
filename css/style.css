@@ -8564,7 +8564,7 @@ border: none;
   text-align: justify;
 }
 .hero-deer{
-  background: -webkit-linear-gradient(0deg, rgba(236,196,124,0.7), rgba(236,196,124,0.7) ),url('/applied-mechanics\(2nd\ edition\)/images/deer-sec.png');
+  background: -webkit-linear-gradient(0deg, rgba(236,196,124,0.7), rgba(236,196,124,0.7) ),url('../images/deer-sec.png');
   background-position: bottom; 
   background-size: cover;
   background-repeat: no-repeat;
