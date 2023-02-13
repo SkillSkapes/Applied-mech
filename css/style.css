@@ -8653,6 +8653,7 @@ font-weight: 700 !important;
 }
 .rearch-img{
   text-align: center !important;
+  justify-content: center;
 }
 .research-col{
   padding: 10px;
@@ -8743,7 +8744,9 @@ font-weight: 700 !important;
   object-fit: cover;
   opacity: 0.4;
   border-radius: 10px;
+  
 }
+
 
 /* Faculty achievement */
 .fac-headng{
@@ -8874,7 +8877,9 @@ border: none;
   font-family: 'Lato',sans-serif;
   text-align: center;
   color: #888888;
+
 }
+
 
 /* events -homepage */
 .blog-home2 {
@@ -9004,6 +9009,7 @@ color: #fff;
   background-color:#fff;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
 /* .item:hover a{
   color: #000;
 } */
@@ -9311,6 +9317,7 @@ hr.solid-second{
   }
   .accordion-body li{
     font-size: 15px;
+    text-align: left;
   }
   .accordion-header span{
     font-size: 18px;
