@@ -9,12 +9,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+
 
 	<link rel="stylesheet" href="css/style.css">
 
 	<link href='fullcalendar/packages/core/main.css' rel='stylesheet' />
-    <link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+	<link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
 
 	<!-- fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,12 +70,12 @@
 				</button>
 				<div class="collapse navbar-collapse" id="ftco-nav">
 					<ul class="navbar-nav m-auto">
-						<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+						<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
 								aria-haspopup="true" aria-expanded="false">People</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown04">
-								<a href="#" class="dropdown-item">Faculty</a>
+								<a href="facultymainpage.html" class="dropdown-item">Faculty</a>
 								<a href="#" class="dropdown-item">Researchers</a>
 								<a href="#" class="dropdown-item">Students</a>
 								<a href="#" class="dropdown-item">Staffs</a>
@@ -132,17 +132,60 @@
 
 	<!-- content starts -->
 	<!-- page content starts -->
-<!-- video section -->
-<section class="fullsize-video-bg">
-	<div id="video-viewport">
-		<video width="1600" height="450" autoplay muted loop>
-			<source src="https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/applied-mec%2Fvideo%2Fvideo4.mp4?alt=media&token=87983182-2f01-4821-b4a4-90d18a2b7b6a" type="video/mp4" />
-			<source src="https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/applied-mec%2Fvideo%2Fvideo4.mp4?alt=media&token=87983182-2f01-4821-b4a4-90d18a2b7b6a" type="video/webm" />
-		</video>
-	</div>
-</section>
+	<!-- video section -->
+	<section class="fullsize-video-bg">
+		<div class="video-sec">
+			<div id="video-viewport">
+				<video width="1600" height="450" autoplay muted loop>
+					<source
+						src="https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/applied-mec%2Fvideo%2Fvideo4.mp4?alt=media&token=87983182-2f01-4821-b4a4-90d18a2b7b6a"
+						type="video/mp4" />
+					<source
+						src="https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/applied-mec%2Fvideo%2Fvideo4.mp4?alt=media&token=87983182-2f01-4821-b4a4-90d18a2b7b6a"
+						type="video/webm" />
+				</video>
+				<div class="latest-news">
+					<div class="card side-card mb-4">
+						<div class="card-body">
+							<h5 class="card-title">Upcoming News & Events</h5>
+							<div class="ne-scroll">
+								<div id="scroll-text">
+									<div class="ne-box">
+										<div class="ne-img">
+											<img src="images/event-img.png"
+												alt="...">
+										</div>
+										<div class="ne-item">
+											<div class="ne-desc"><a href="/pages/newsDetails?wId=15">MS/PhD Selected Candidates
+													- July 2022</a></div>
+											<span class="ne-date"><i class="fa fa-calendar"></i>23-Jun-2022</span>
+										</div>
+									</div>
+									<div class="ne-box">
+										<div class="ne-img">
+											<img src="images/event-img.png"
+												alt="...">
+										</div>
+										<div class="ne-item">
+											<div class="ne-desc"><a href="/pages/newsDetails?wId=15">MS/PhD Selected Candidates
+													- July 2022</a></div>
+											<span class="ne-date"><i class="fa fa-calendar"></i>23-Jun-2022</span>
+										</div>
+									</div>
+								</div>								
+							</div>
+							<div class="mt-2" style="text-align: center;">
+								<a href="/pages/moreNews" class="dep-btn" style="text-decoration: none;">More News </a>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+			
+		</div>
+	</section>
 
-<!-- video section end  -->
+	<!-- video section end  -->
 	<!-- ABOUT DEPARTMENT -->
 
 	<section class="mech-content">
@@ -150,20 +193,20 @@
 			<div class="row" style="padding: 20px 0;">
 				<div class="col-md-6 abt-btn">
 					<div class="wrapper">
-						<div class="button-box">						
+						<div class="button-box">
 							<button type="button" class="btn-appl btn-15">Prospective Students</button>
 							<button type="button" class="btn-appl btn-15">Prospective Faculty</button>
 						</div>
 						<div class="button-box">
-							<button type="button" class="btn-appl btn-15" >Current Students</button>
-							<button type="button" class="btn-appl btn-15" >Current Faculty</button>
+							<button type="button" class="btn-appl btn-15">Current Students</button>
+							<button type="button" class="btn-appl btn-15">Current Faculty</button>
 						</div>
 						<div class="button-box">
-							<button type="button" class="btn-appl btn-15" >Industry Engagement</button>
-							<button type="button" class="btn-appl btn-15" >Recruiters</button>
-						</div>						
+							<button type="button" class="btn-appl btn-15">Industry Engagement</button>
+							<button type="button" class="btn-appl btn-15">Recruiters</button>
+						</div>
 					</div>
-				</div>			
+				</div>
 
 
 				<div class="col-md-6">
@@ -330,7 +373,7 @@
 				<div class="col-md-5">
 					<div class="hod-image">
 						<img src="images/Civil Engg Manu Santhanam 4.png" class="hod-img">
-					</div>					
+					</div>
 				</div>
 
 
@@ -420,23 +463,22 @@
 	<section class="Resrch" style="padding-bottom: 40px;">
 		<div class="container">
 			<div class="row" style="padding: 10px 0;">
-				<h2 class="reserch-headng" ><span class="resrch"
-						style="color: #a00; ">|</span> Research Areas</h2>
+				<h2 class="reserch-headng"><span class="resrch" style="color: #a00; ">|</span> Research Areas</h2>
 			</div>
 			<div class="row rearch-img">
 				<div class="col-md-4 research-col">
 
 					<img src="images/imag3.png" class="imags-1">
 					<div class="centered">Solid Mechanics</div>
-					<div class="overlay-solid">	
-						<div class="centered-text">Solid Mechanics</div>	
+					<div class="overlay-solid">
+						<div class="centered-text">Solid Mechanics</div>
 					</div>
 				</div>
 				<div class="col-md-4 research-col">
 					<img src="images/imag1.png" class="imags-1">
 					<div class="centered">Fluid Mechanics</div>
 					<div class="overlay-fluid">
-						<div class="centered-text">Fluid Mechanics</div>		
+						<div class="centered-text">Fluid Mechanics</div>
 					</div>
 
 				</div>
@@ -444,7 +486,7 @@
 					<img src="images/imag2.png" class="imags-1">
 					<div class="centered">Biomedical Engineering</div>
 					<div class="overlay-biomedical">
-						<div class="centered-text" style="padding: 0;">Biomedical&nbsp;Engineering</div>				
+						<div class="centered-text" style="padding: 0;">Biomedical&nbsp;Engineering</div>
 					</div>
 
 
@@ -502,7 +544,7 @@
 					<div class="card-body">
 						<h3>Guru Dhwani Design Antenna Challenge - 2011</h3>
 						<p><b>Prof. Krishnamurthy C V</b><br>
-							mentor for the team “Horizon” was ranked 3rd 
+							mentor for the team “Horizon” was ranked 3rd
 							in the top three designs, among 16 teams across india</p>
 						<div class="news-readmore">
 							<a href="#"><button>Read More >></button></a>
@@ -518,11 +560,11 @@
 					<div class="card-body">
 						<h3>Prof. V. Balakrishnan Institute Chair endowment</h3>
 						<p><b>DR. Satish Ramakrishna (EE 1987) </b><br></p>
-							was launched on Friday 15 July 2022 by the
-                            office of Alumni and Corporate Relation, IITM</p>
-							<div class="news-readmore">
-								<a href="#"><button>Read More >></button></a>
-							</div>
+						was launched on Friday 15 July 2022 by the
+						office of Alumni and Corporate Relation, IITM</p>
+						<div class="news-readmore">
+							<a href="#"><button>Read More >></button></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -533,23 +575,24 @@
 					<div class="card-body">
 						<h3>First Prize at the INAE - SERB</h3>
 						<p><b>Ayan Kumar Nai (PH20D047)</b><br>
-						working with Dr. Sivarama Krishnan, was awarded the
-                       first prize at the INAE - SERB</p>
-							<div class="news-readmore">
-								<a href="#"><button>Read More >></button></a>
-							</div>
+							working with Dr. Sivarama Krishnan, was awarded the
+							first prize at the INAE - SERB</p>
+						<div class="news-readmore">
+							<a href="#"><button>Read More >></button></a>
+						</div>
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-8">
 				<div class="news-button">
-					<button type="button" class="news-btn" data-toggle="modal" data-target="#modalDiscount">Read More</button>
+					<button type="button" class="news-btn" data-toggle="modal" data-target="#modalDiscount">Read
+						More</button>
 				</div>
-			</div>			
-		</div>		
+			</div>
+		</div>
 
 	</section>
 
@@ -650,7 +693,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 
 
 
@@ -734,92 +777,92 @@
 
 	<!-- calendar -->
 	<script src='fullcalendar/packages/core/main.js'></script>
-    <script src='fullcalendar/packages/interaction/main.js'></script>
-    <script src='fullcalendar/packages/daygrid/main.js'></script>
-    <script src='fullcalendar/packages/timegrid/main.js'></script>
-    <script src='fullcalendar/packages/list/main.js'></script>
+	<script src='fullcalendar/packages/interaction/main.js'></script>
+	<script src='fullcalendar/packages/daygrid/main.js'></script>
+	<script src='fullcalendar/packages/timegrid/main.js'></script>
+	<script src='fullcalendar/packages/list/main.js'></script>
 
 	<!-- calendar script -->
 	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-	  var calendarEl = document.getElementById('calendar');
-  
-	  var calendar = new FullCalendar.Calendar(calendarEl, {
-		plugins: [ 'interaction', 'dayGrid', 'timeGrid', 'list' ],
-		height: 'parent',
-		header: {
-		  left: 'prev,next today',
-		  center: 'title',
-		  right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
-		},
-		defaultView: 'dayGridMonth',
-		defaultDate: '2023-02-12',
-		navLinks: true, // can click day/week names to navigate views
-		editable: true,
-		eventLimit: true, // allow "more" link when too many events
-		events: [
-		  {
-			title: 'All Day Event',
-			start: '2020-02-01',
-		  },
-		  {
-			title: 'Long Event',
-			start: '2020-02-07',
-			end: '2020-02-10'
-		  },
-		  {
-			groupId: 999,
-			title: 'Repeating Event',
-			start: '2020-02-09T16:00:00'
-		  },
-		  {
-			groupId: 999,
-			title: 'Repeating Event',
-			start: '2020-02-16T16:00:00'
-		  },
-		  {
-			title: 'Conference',
-			start: '2020-02-11',
-			end: '2020-02-13'
-		  },
-		  {
-			title: 'Meeting',
-			start: '2020-02-12T10:30:00',
-			end: '2020-02-12T12:30:00'
-		  },
-		  {
-			title: 'Lunch',
-			start: '2020-02-12T12:00:00'
-		  },
-		  {
-			title: 'Meeting',
-			start: '2020-02-12T14:30:00'
-		  },
-		  {
-			title: 'IITM Hour',
-			start: '2020-02-12T17:30:00'
-		  },
-		  {
-			title: 'Dinner',
-			start: '2020-02-12T20:00:00'
-		  },
-		  {
-			title: 'G20 event',
-			start: '2020-02-13T07:00:00'
-		  },
-		  {
-			title: 'Click for Google',
-			url: 'http://google.com/',
-			start: '2023-02-28'
-		  }
-		]
-	  });
-  
-	  calendar.render();
-	});
-  
-	  </script>
- 
+		document.addEventListener('DOMContentLoaded', function () {
+			var calendarEl = document.getElementById('calendar');
+
+			var calendar = new FullCalendar.Calendar(calendarEl, {
+				plugins: ['interaction', 'dayGrid', 'timeGrid', 'list'],
+				height: 'parent',
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+				},
+				defaultView: 'dayGridMonth',
+				defaultDate: '2023-02-12',
+				navLinks: true, // can click day/week names to navigate views
+				editable: true,
+				eventLimit: true, // allow "more" link when too many events
+				events: [
+					{
+						title: 'All Day Event',
+						start: '2020-02-01',
+					},
+					{
+						title: 'Long Event',
+						start: '2020-02-07',
+						end: '2020-02-10'
+					},
+					{
+						groupId: 999,
+						title: 'Repeating Event',
+						start: '2020-02-09T16:00:00'
+					},
+					{
+						groupId: 999,
+						title: 'Repeating Event',
+						start: '2020-02-16T16:00:00'
+					},
+					{
+						title: 'Conference',
+						start: '2020-02-11',
+						end: '2020-02-13'
+					},
+					{
+						title: 'Meeting',
+						start: '2020-02-12T10:30:00',
+						end: '2020-02-12T12:30:00'
+					},
+					{
+						title: 'Lunch',
+						start: '2020-02-12T12:00:00'
+					},
+					{
+						title: 'Meeting',
+						start: '2020-02-12T14:30:00'
+					},
+					{
+						title: 'IITM Hour',
+						start: '2020-02-12T17:30:00'
+					},
+					{
+						title: 'Dinner',
+						start: '2020-02-12T20:00:00'
+					},
+					{
+						title: 'G20 event',
+						start: '2020-02-13T07:00:00'
+					},
+					{
+						title: 'Click for Google',
+						url: 'http://google.com/',
+						start: '2023-02-28'
+					}
+				]
+			});
+
+			calendar.render();
+		});
+
+	</script>
+
 	<!-- calendar script End -->
 </body>
 
